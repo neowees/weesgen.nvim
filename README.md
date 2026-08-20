@@ -1,6 +1,7 @@
 
-INSTALL:
+### INSTALL:
 
+```sh
 echo 'export MAMMOUTH_API_KEY="your-key-here"' >> ~/.bashrc
 source ~/.bashrc
 
@@ -8,8 +9,11 @@ source ~/.bashrc
 
 mkdir -p ~/.local/share/nvim/site/pack/dev/opt
 ln -s ~/__Project/weesgen.nvim ~/.local/share/nvim/site/pack/dev/opt/weesgen.nvim
+```
 
-Then in your init.lua:
+#### Then in your init.lua:
+
+```txt
 -- ============================================================
 -- SECTION 8.5: WEESGEN (local dev plugin, unmanaged by vim.pack)
 -- Inline code generation via Mammouth API
@@ -20,6 +24,6 @@ do
 		model = "mammouth-recommended",
 	})
 end
-
-USAGE INSIDE FILE
+```
+#### USAGE INSIDE FILE
 weesgen: write sample function
