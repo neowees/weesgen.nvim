@@ -16,7 +16,7 @@ require("weesgen").setup({
 })
 ```
 #### USAGE INSIDE ANY FILE
-weesgen: write sample function (<leader>wg)
+weesgen: write sample function `<leader> wg`
 
 * Currently working only with Mammouth API
 (https://info.mammouth.ai/docs/api-quick-start/)
